@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backstage Talks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="scroll-container">
+        <header class="w-full h-16 top-0 z-40 flex justify-between items-center px-4">
+            <h1 class="text-4xl bebas">BACKSTAGE TALKS</h1>
+            <a href="mailto:jasson.suazo@unah.hn" class="roboto-bold text-xl">jasson.suazo@unah.hn</a>
+        </header>
+
+        <main class="grid grid-cols-1 md:grid-cols-3 h-screen">
+            <!-- Primera sección -->
+            <div class="flex flex-col translate-y-96 translate-x-16">
+                <h2 class="text-lg roboto-bold1">
+                    Backstage Talks is a magazine <br> of casual, but in depth dialogues <br> on design and business. 
+                    Our decisions <br> shape and influence this complex <br> world—to have a chance to make the <br> right ones, 
+                    we need to talk.
+                </h2>
+            </div>
+
+            <!-- Segunda sección -->
+            <div class="Book flex flex-col items-center">
+                <img src="img/backstagetalks_cover1.png" alt="Backstage Talks">
+                <h2 class="text-2xl roboto-bold1">Book #2</h2>
+                <a href="https://brot.sk/products/pre-order-backstage-talks-issue-8" class="roboto-bold1 text-1xl text-white">BUY HERE</a>
+                <p class="roboto-bold1 text-1xl text-black">
+                    or in
+                    <a href="https://backstagetalks.com/stocklist.php" class="text-blue-500 underline">selected stores</a>
+                </p>
+            </div>
+        </main>
+
+        <!-- Contenido adicional que aparece al hacer scroll -->
+        <section class="h-screen bg-gray-100 flex items-center justify-center">
+            <h2 class="text-3xl bebas">Welcome to the next section!</h2>
+        </section>
+    </div>
+</body>
+</html>

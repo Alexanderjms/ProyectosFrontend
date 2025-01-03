@@ -1,0 +1,107 @@
+body {
+    background-color: #F6E0A4;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.scroll-container {
+    height: 200vh; /* Altura total de la página, dos veces el viewport */
+    overflow-y: auto; /* Habilitar scroll solo dentro de este contenedor */
+}
+
+.bebas {
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+  
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+  transition: color 0.2s ease, text-decoration 0.2s ease; 
+}
+
+.roboto-bold1 {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.roboto-bold:hover {
+  color: #3490dc;
+  text-decoration: underline;
+}
+
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.Book {
+  width: 500px;
+  height: 100%;
+  margin-top: -60px;
+}
