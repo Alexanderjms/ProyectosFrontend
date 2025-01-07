@@ -138,13 +138,13 @@
 }
 
 .TLeft {
-  left: 290px;
+  left: 210px;
 }
 
 .boxMain {
   max-width: 1400px; 
   padding: 20px;
-  height: 900px;
+  height: 1200px;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
@@ -168,8 +168,8 @@
 }
 
 .highlight {
-    color: #141414;     
-    padding: 5px;               
-    border-radius: 2px;
-    margin-top: 10px;
+  color: #141414;     
+  padding: 5px;               
+  border-radius: 2px;
+  margin-top: 10px;
 }
