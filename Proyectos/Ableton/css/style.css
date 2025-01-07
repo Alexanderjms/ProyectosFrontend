@@ -173,3 +173,10 @@
   border-radius: 2px;
   margin-top: 10px;
 }
+
+.DivFooter{
+  width: 80%;
+  height: 100px;
+  border: 1px solid #0000ff;
+  margin-left: 140px;
+}
