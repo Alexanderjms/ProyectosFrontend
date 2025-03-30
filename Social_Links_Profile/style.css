@@ -93,3 +93,30 @@ body{
 a {
     text-decoration: none; 
 }
+
+
+@media screen and (max-width: 400px) {
+    .Box {
+        width: 90%; 
+        height: auto;
+        padding: 20px; 
+    }
+    .Profile {
+        width: 120px;
+        height: 120px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .Location {
+        font-size: 18px;
+    }
+    .Bio {
+        font-size: 14px;
+    }
+    .btn, .bottone1 {
+        width: 100%; 
+        margin-left: 0;
+    }
+    
+}
