@@ -1,0 +1,12 @@
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .work-sansFAQ {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+  }
