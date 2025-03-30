@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .Box {
@@ -31,6 +32,7 @@ body{
     color: aliceblue;
     font-size: 25px;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 .Location{
@@ -38,6 +40,7 @@ body{
     color: rgb(141, 250, 141);
     font-size: 20px;
     margin-top: 15px; 
+    font-weight: bold;
 }
 
 .Bio{
@@ -45,6 +48,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 15px;
     margin-top: 10px; 
+    
 }
 
 .btn{
@@ -53,14 +57,12 @@ body{
     align-items: center;
     width: 100px;
     height: 15px;
-    padding: 17px;
-    margin: 10px;
     color: aliceblue;
     background-color: rgb(76, 82, 73);
     text-align: center;
     border-radius: 10px;
-    margin-left: 90px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .bottone1 {
@@ -73,7 +75,7 @@ body{
     border-radius: 9px;
     background: #238b63;
     border: none;
-    margin-left: 30px;
+    margin-left: 45px;
     text-align: center;
     cursor: pointer;
     transition: 0.4s;
