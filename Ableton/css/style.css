@@ -1,0 +1,187 @@
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-semibold1 {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-semibold1:hover {
+  color: #0000ff;
+  transition: color 0.2s;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.text-Trylive {
+  color: #0000ff;
+}
+
+.Div-img {
+  width: 100%;
+  height: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ overflow: hidden; 
+}
+
+.Div-img img {
+  width: 100%; 
+  height: auto; 
+  object-fit: contain;
+  filter: brightness(0.8);
+}
+
+.TLeft {
+  left: 210px;
+}
+
+.boxMain {
+  max-width: 1400px; 
+  padding: 20px;
+  height: 1200px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-left: 80px;
+}
+
+.AreaGrid {
+  width: 200px;
+  height: 300px;
+  border: 1px solid #0000ff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.BorderExtern {
+  width: 1360px;
+  padding: 10px;
+  margin-left: 1px;
+  margin-top: 20px;
+}
+
+.highlight {
+  color: #141414;     
+  padding: 5px;               
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.DivFooter{
+  width: 100%;
+  height: 400px;
+  padding: 110px;
+  margin-bottom: 300px;
+}
+
+.Pdl{
+  padding-left: 450px;
+}
+
