@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ableton</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="w-full h-20 bg-white flex items-center px-10 gap-x-6">
+        <svg role="img" aria-label="Logo Ableton" class="main-nav__logo__image" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="70" height="50" viewBox="0 0 50 25">
+            <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
+        </svg>
+        <div class="text-lg flex gap-x-6">
+        <a class="poppins-semibold1" href="#">Live</a>
+        <a class="poppins-semibold1" href="#">Push</a>
+        <a class="poppins-semibold1" href="#">Move</a>
+        <a class="poppins-semibold1" href="#">Note</a>
+        <a class="poppins-semibold1" href="#">Link</a>
+        <a class="poppins-semibold1" href="#">Shop</a>
+        <a class="poppins-semibold1" href="#">Packs</a>
+        <a class="poppins-semibold1" href="#">Help</a>
+        <a class="poppins-semibold1" href="#">More +</a>
+        </div>
+
+        <div class="poppins-semibold text-lg text-Trylive flex items-end ml-auto">
+            <a href="#">Try Live 12 for free</a>
+        </div>
+
+        <div class="poppins-semibold1 text-base text-black flex items-end">
+            <a href="#">Log in or register</a>
+        </div>
+    </header>
+
+    
+    <main>
+        <div class="Div-img relative mb-28">
+            <a class="inset-y-40 left-90 z-40 absolute text-6xl text-white poppins-bold" href="#">Create faster than you can overthink</a>
+            <a class="inset-y-56 TLeft z-40 absolute text-lg text-white poppins-bold underline" href="#">Get move</a>
+            <img src="./img/1.jpg" alt="Ableton">
+        </div>
+
+        <div class="boxMain">
+            <div class="headerSection grid grid-cols-2 items-center py-6">
+                <div class="px-1 poppins-semibold text-3xl">
+                    The latest from Ableton
+                </div>
+                <div class="pl-24 text-xl text-Trylive space-x-2">
+                    <a class="poppins-medium" href="#">All post</a>
+                    <a class="poppins-medium" href="#">Artist</a>
+                    <a class="poppins-medium" href="#">News</a>
+                    <a class="poppins-medium" href="#">Downloads</a>
+                    <a class="poppins-medium" href="#">Tutorials</a>
+                    <a class="poppins-medium" href="#">Videos</a>
+                    <a class="poppins-medium" href="#">Loop</a>
+                </div>
+                <div class="BorderExtern">
+                    <div class="grid grid-cols-3 gap-4 mb-20">
+                        <!-- Columna 1 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="h-52 mb-2">
+                                <img src="./img/min1.jpg" class="w-full h-52 object-cover" alt="Ableton">
+                            </div>
+                            <div>
+                                <span class="highlight bg-violet-300 poppins-semibold text-sm">News</span>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-sm">
+                                    Going Deeper into Sound: Eight Standout Features, Videos and Tutorials from 2024
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Columna 2 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="h-52 mb-2">
+                                <img src="./img/min2.jpg" class="w-full h-52 object-cover" alt="Ableton">
+                            </div>
+                            <div>
+                                <span class="highlight bg-pink-300 poppins-semibold text-sm">Downloads</span>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-sm">
+                                    Download the Live Set of Polygonia’s New Track “Neon Oracle”
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Columna 3 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="h-52 mb-2">
+                                <img src="./img/min3.jpg" class="w-full h-52 object-cover" alt="Ableton">
+                            </div>
+                            <div>
+                                <span class="highlight bg-pink-300 poppins-semibold text-sm">Downloads</span>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-sm">
+                                    Ben Lukas Boysen: Overdoing It Just Right
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="text-3xl poppins-semibold mb-4">
+                        Get started with Move
+                    </div>
+                
+                    <div class="grid grid-cols-3 gap-x-8">
+                        <!-- Columna 1 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="video-wrapper relative h-52 mb-2">
+                                <iframe
+                                    class="absolute top-0 left-0 w-full h-full"
+                                    src="https://www.youtube.com/embed/_c4lz85pOLc"
+                                    title="YouTube video player"
+                                    frameborder="0">
+                                </iframe>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-lg">
+                                    Getting started with Move
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Columna 2 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="video-wrapper relative h-52 mb-2">
+                                <iframe
+                                    class="absolute top-0 left-0 w-full h-full"
+                                    src="https://www.youtube.com/embed/aGjZ2HGK0mw"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+                                </iframe>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-lg">
+                                    Making beats with Move
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Columna 3 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="video-wrapper relative h-52 mb-2">
+                                <iframe
+                                    class="absolute top-0 left-0 w-full h-full"
+                                    src="https://www.youtube.com/embed/CdoT5YuVO1Q"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+                                </iframe>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-lg">
+                                    Playing Instruments with Move
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="text-3xl poppins-semibold mt-20 mb-4">
+                        Take your ideas further in Live
+                    </div>
+                
+                    <div class="grid grid-cols-3 gap-x-8">
+                        <!-- Columna 1 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="relative h-52 mb-2">
+                                <img src="./img/min4.jpg" class="w-full h-52 object-cover" alt="Ableton">
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-lg">
+                                    Connecting Move to your computer
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Columna 2 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="video-wrapper relative h-52 mb-2">
+                                <iframe
+                                    class="absolute top-0 left-0 w-full h-full"
+                                    src="https://www.youtube.com/embed/_XDkA_f8n08"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+                                </iframe>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-lg">
+                                    Learn Live 12: Live's user interface
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Columna 3 -->
+                        <div class="flex flex-col space-y-2">
+                            <div class="video-wrapper relative h-52 mb-2">
+                                <iframe
+                                    class="absolute top-0 left-0 w-full h-full"
+                                    src="https://www.youtube.com/embed/wENbeUNS-IA"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+                                </iframe>
+                            </div>
+                            <div>
+                                <span class="poppins-semibold text-lg">
+                                    Watch the Learn Live 12 Videos ›
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+               
+                
+        </div>
+
+    </main>
+
+
+
+    
+    <div class="h-36 w-full bg-stone-200 flex items-center justify-center">
+        <div class="text-lg flex gap-x-8">
+            <span class="poppins-semibold">More:</span>
+            <a class="poppins-semibold text-Trylive" href="#">Live</a>
+            <a class="poppins-semibold text-Trylive" href="#">Push</a>
+            <a class="poppins-semibold text-Trylive" href="#">Move</a>
+            <a class="poppins-semibold text-Trylive" href="#">Note</a>
+            <a class="poppins-semibold text-Trylive" href="#">Link</a>
+            <a class="poppins-semibold text-Trylive" href="#">Shop</a>
+            <a class="poppins-semibold text-Trylive" href="#">Packs</a>
+            <a class="poppins-semibold text-Trylive" href="#">Help</a>
+            <a class="poppins-semibold text-Trylive" href="#">More +</a>
+        </div>
+   </div>
+
+   <footer class="w-full bg-white DivFooter">
+    <p class="text-5xl poppins-semibold mb-12">Ableton</p>
+
+    <div class="grid grid-cols-3 gap-x-0">
+        <div>
+            <ul class="space-y-0.5">
+                <li>
+                    <a href="#" class="poppins-regular text-sm">Register your copy of Live or Push ></a>
+                </li>
+                <li>
+                    <a href="#" class="poppins-regular text-sm">About Ableton ></a>
+                </li>
+                <li>
+                    <a href="#" class="poppins-regular text-sm">Jobs ></a>
+                </li>
+
+                <div class="flex items-center space-x-2 pt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                      <path fill="#2473db" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/>
+                    </svg>
+                    <svg  width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+                    <svg width="24" height="28" viewBox="0 -3 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>youtube [#168]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7442.000000)" fill="#ff0302"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M251.988432,7291.58588 L251.988432,7285.97425 C253.980638,7286.91168 255.523602,7287.8172 257.348463,7288.79353 C255.843351,7289.62824 253.980638,7290.56468 251.988432,7291.58588 M263.090998,7283.18289 C262.747343,7282.73013 262.161634,7282.37809 261.538073,7282.26141 C259.705243,7281.91336 248.270974,7281.91237 246.439141,7282.26141 C245.939097,7282.35515 245.493839,7282.58153 245.111335,7282.93357 C243.49964,7284.42947 244.004664,7292.45151 244.393145,7293.75096 C244.556505,7294.31342 244.767679,7294.71931 245.033639,7294.98558 C245.376298,7295.33761 245.845463,7295.57995 246.384355,7295.68865 C247.893451,7296.0008 255.668037,7296.17532 261.506198,7295.73552 C262.044094,7295.64178 262.520231,7295.39147 262.895762,7295.02447 C264.385932,7293.53455 264.28433,7285.06174 263.090998,7283.18289" id="youtube-[#168]"> </path> </g> </g> </g> </g></svg>
+                    <img  width="24" height="24" src = "./img/Ig.svg" alt="My Happy SVG"/>
+                    <svg width="24px" height="24px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8.45095 19.7926C8.60723 18.4987 9.1379 17.7743 10.1379 17.0317C11.5688 16.0259 13.3561 16.5948 13.3561 16.5948V13.2197C13.7907 13.2085 14.2254 13.2343 14.6551 13.2966V17.6401C14.6551 17.6401 12.8683 17.0712 11.4375 18.0775C10.438 18.8196 9.90623 19.5446 9.7505 20.8385C9.74562 21.5411 9.87747 22.4595 10.4847 23.2536C10.3345 23.1766 10.1815 23.0889 10.0256 22.9905C8.68807 22.0923 8.44444 20.7449 8.45095 19.7926ZM22.0352 6.97898C21.0509 5.90039 20.6786 4.81139 20.5441 4.04639H21.7823C21.7823 4.04639 21.5354 6.05224 23.3347 8.02482L23.3597 8.05134C22.8747 7.7463 22.43 7.38624 22.0352 6.97898ZM28 10.0369V14.293C28 14.293 26.42 14.2312 25.2507 13.9337C23.6179 13.5176 22.5685 12.8795 22.5685 12.8795C22.5685 12.8795 21.8436 12.4245 21.785 12.3928V21.1817C21.785 21.6711 21.651 22.8932 21.2424 23.9125C20.709 25.246 19.8859 26.1212 19.7345 26.3001C19.7345 26.3001 18.7334 27.4832 16.9672 28.28C15.3752 28.9987 13.9774 28.9805 13.5596 28.9987C13.5596 28.9987 11.1434 29.0944 8.96915 27.6814C8.49898 27.3699 8.06011 27.0172 7.6582 26.6277L7.66906 26.6355C9.84383 28.0485 12.2595 27.9528 12.2595 27.9528C12.6779 27.9346 14.0756 27.9528 15.6671 27.2341C17.4317 26.4374 18.4344 25.2543 18.4344 25.2543C18.5842 25.0754 19.4111 24.2001 19.9423 22.8662C20.3498 21.8474 20.4849 20.6247 20.4849 20.1354V11.3475C20.5435 11.3797 21.2679 11.8347 21.2679 11.8347C21.2679 11.8347 22.3179 12.4734 23.9506 12.8889C25.1204 13.1864 26.7 13.2483 26.7 13.2483V9.91314C27.2404 10.0343 27.7011 10.0671 28 10.0369Z" fill="#EE1D52"></path> <path d="M26.7009 9.91314V13.2472C26.7009 13.2472 25.1213 13.1853 23.9515 12.8879C22.3188 12.4718 21.2688 11.8337 21.2688 11.8337C21.2688 11.8337 20.5444 11.3787 20.4858 11.3464V20.1364C20.4858 20.6258 20.3518 21.8484 19.9432 22.8672C19.4098 24.2012 18.5867 25.0764 18.4353 25.2553C18.4353 25.2553 17.4337 26.4384 15.668 27.2352C14.0765 27.9539 12.6788 27.9357 12.2604 27.9539C12.2604 27.9539 9.84473 28.0496 7.66995 26.6366L7.6591 26.6288C7.42949 26.4064 7.21336 26.1717 7.01177 25.9257C6.31777 25.0795 5.89237 24.0789 5.78547 23.7934C5.78529 23.7922 5.78529 23.791 5.78547 23.7898C5.61347 23.2937 5.25209 22.1022 5.30147 20.9482C5.38883 18.9122 6.10507 17.6625 6.29444 17.3494C6.79597 16.4957 7.44828 15.7318 8.22233 15.0919C8.90538 14.5396 9.6796 14.1002 10.5132 13.7917C11.4144 13.4295 12.3794 13.2353 13.3565 13.2197V16.5948C13.3565 16.5948 11.5691 16.028 10.1388 17.0317C9.13879 17.7743 8.60812 18.4987 8.45185 19.7926C8.44534 20.7449 8.68897 22.0923 10.0254 22.991C10.1813 23.0898 10.3343 23.1775 10.4845 23.2541C10.7179 23.5576 11.0021 23.8221 11.3255 24.0368C12.631 24.8632 13.7249 24.9209 15.1238 24.3842C16.0565 24.0254 16.7586 23.2167 17.0842 22.3206C17.2888 21.7611 17.2861 21.1978 17.2861 20.6154V4.04639H20.5417C20.6763 4.81139 21.0485 5.90039 22.0328 6.97898C22.4276 7.38624 22.8724 7.7463 23.3573 8.05134C23.5006 8.19955 24.2331 8.93231 25.1734 9.38216C25.6596 9.61469 26.1722 9.79285 26.7009 9.91314Z" fill="#000000"></path> <path d="M4.48926 22.7568V22.7594L4.57004 22.9784C4.56076 22.9529 4.53074 22.8754 4.48926 22.7568Z" fill="#69C9D0"></path> <path d="M10.5128 13.7916C9.67919 14.1002 8.90498 14.5396 8.22192 15.0918C7.44763 15.7332 6.79548 16.4987 6.29458 17.354C6.10521 17.6661 5.38897 18.9168 5.30161 20.9528C5.25223 22.1068 5.61361 23.2983 5.78561 23.7944C5.78543 23.7956 5.78543 23.7968 5.78561 23.798C5.89413 24.081 6.31791 25.0815 7.01191 25.9303C7.2135 26.1763 7.42963 26.4111 7.65924 26.6334C6.92357 26.1457 6.26746 25.5562 5.71236 24.8839C5.02433 24.0451 4.60001 23.0549 4.48932 22.7626C4.48919 22.7605 4.48919 22.7584 4.48932 22.7564V22.7527C4.31677 22.2571 3.95431 21.0651 4.00477 19.9096C4.09213 17.8736 4.80838 16.6239 4.99775 16.3108C5.4985 15.4553 6.15067 14.6898 6.92509 14.0486C7.608 13.4961 8.38225 13.0567 9.21598 12.7484C9.73602 12.5416 10.2778 12.3891 10.8319 12.2934C11.6669 12.1537 12.5198 12.1415 13.3588 12.2575V13.2196C12.3808 13.2349 11.4148 13.4291 10.5128 13.7916Z" fill="#69C9D0"></path> <path d="M20.5438 4.04635H17.2881V20.6159C17.2881 21.1983 17.2881 21.76 17.0863 22.3211C16.7575 23.2167 16.058 24.0253 15.1258 24.3842C13.7265 24.923 12.6326 24.8632 11.3276 24.0368C11.0036 23.823 10.7187 23.5594 10.4844 23.2567C11.5962 23.8251 12.5913 23.8152 13.8241 23.341C14.7558 22.9821 15.4563 22.1734 15.784 21.2774C15.9891 20.7178 15.9864 20.1546 15.9864 19.5726V3H20.4819C20.4819 3 20.4315 3.41188 20.5438 4.04635ZM26.7002 8.99104V9.9131C26.1725 9.79263 25.6609 9.61447 25.1755 9.38213C24.2352 8.93228 23.5026 8.19952 23.3594 8.0513C23.5256 8.1559 23.6981 8.25106 23.8759 8.33629C25.0192 8.88339 26.1451 9.04669 26.7002 8.99104Z" fill="#69C9D0">
+
+                    </path> </g></svg>
+                    <svg width="32px" height="32px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 11.6C2 8.23969 2 6.55953 2.65396 5.27606C3.2292 4.14708 4.14708 3.2292 5.27606 2.65396C6.55953 2 8.23969 2 11.6 2H20.4C23.7603 2 25.4405 2 26.7239 2.65396C27.8529 3.2292 28.7708 4.14708 29.346 5.27606C30 6.55953 30 8.23969 30 11.6V20.4C30 23.7603 30 25.4405 29.346 26.7239C28.7708 27.8529 27.8529 28.7708 26.7239 29.346C25.4405 30 23.7603 30 20.4 30H11.6C8.23969 30 6.55953 30 5.27606 29.346C4.14708 28.7708 3.2292 27.8529 2.65396 26.7239C2 25.4405 2 23.7603 2 20.4V11.6Z" fill="white"></path> <path d="M23.6361 9.33998C22.212 8.71399 20.6892 8.25903 19.0973 8C18.9018 8.33209 18.6734 8.77875 18.5159 9.13408C16.8236 8.89498 15.1469 8.89498 13.4857 9.13408C13.3283 8.77875 13.0946 8.33209 12.8974 8C11.3037 8.25903 9.77927 8.71565 8.35518 9.3433C5.48276 13.4213 4.70409 17.3981 5.09342 21.3184C6.99856 22.6551 8.84487 23.467 10.66 23.9983C11.1082 23.4189 11.5079 22.8029 11.8523 22.1536C11.1964 21.9195 10.5683 21.6306 9.9748 21.2951C10.1323 21.1856 10.2863 21.071 10.4351 20.9531C14.0551 22.5438 17.9881 22.5438 21.5649 20.9531C21.7154 21.071 21.8694 21.1856 22.0251 21.2951C21.4299 21.6322 20.8 21.9211 20.1442 22.1553C20.4885 22.8029 20.8865 23.4205 21.3364 24C23.1533 23.4687 25.0013 22.6567 26.9065 21.3184C27.3633 16.7738 26.1261 12.8335 23.6361 9.33998ZM12.3454 18.9075C11.2587 18.9075 10.3676 17.9543 10.3676 16.7937C10.3676 15.6331 11.2397 14.6783 12.3454 14.6783C13.4511 14.6783 14.3422 15.6314 14.3232 16.7937C14.325 17.9543 13.4511 18.9075 12.3454 18.9075ZM19.6545 18.9075C18.5678 18.9075 17.6767 17.9543 17.6767 16.7937C17.6767 15.6331 18.5488 14.6783 19.6545 14.6783C20.7602 14.6783 21.6514 15.6314 21.6323 16.7937C21.6323 17.9543 20.7602 18.9075 19.6545 18.9075Z" fill="#5865F2">
+
+                    </path> </g></svg>
+                </div>
+                  
+               
+            </ul>
+
+
+
+
+        </div>
+
+        <div>
+            <ul class="space-y-0.5">
+                <li>
+                    <p class="text-lg poppins-semibold">Education</p>
+                    <a href="#" class="poppins-regular text-sm">Offers for students and teachers ></a>
+                </li>
+                <li>
+                    <a href="#" class="poppins-regular text-sm">Ableton for the Classroom ></a>
+                </li>
+                <li>
+                    <a href="#" class="poppins-regular text-sm">Ableton for Colleges and Universities ></a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <ul class="space-y-0.5">
+                <li>
+                    <p class="text-lg poppins-semibold">Sign up to our newsletter</p>
+                    <a href="#" class="poppins-regular text-sm">
+                        Enter your email address to stay up to date with the latest offers, tutorials, downloads, surveys and more.
+                    </a>
+                    <div class="flex items-center bg-gray-100 mt-2 p-2">
+                        <input
+                          type="email"
+                          placeholder="Email Address"
+                          class="flex-grow p-2 text-sm border-none outline-none bg-gray-100 poppins-semibold"
+                        />
+                        <button class="p-2 text-white bg-[#0000ff] hover:bg-blue-800 text-sm poppins-semibold">
+                          Sign up
+                        </button>
+                      </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-3 gap-x-0 mb-28 mt-12">
+        <div>
+            <ul class="space-y-0.5">
+                <li>
+                    <p class="text-lg poppins-semibold">Community</p>
+                    <a href="#" class="poppins-regular text-sm">Find Ableton User Groups ></a>
+                </li>
+                <li>
+                    <a href="#" class="poppins-regular text-sm">Find Certified Training ></a>
+                </li>
+                <li>
+                    <a href="#" class="poppins-regular text-sm">Become a Certified Trainer ></a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <p class="text-lg poppins-semibold">Language and Location</p>
+            <select class="bg-gray-100 p-1 -m-0.5 text-xs hover:bg-gray-200 focus:border-blue-500 focus:ring focus:ring-blue-300">
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value="Italian">Italian</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Korean">Korean</option>
+                <option value="Portuguese">Portuguese</option>
+                <option value="Russian">Russian</option>
+            </select>
+            <select class="bg-gray-100 text-xs p-1 -m-0.5 hover:bg-gray-200 focus:border-blue-500 focus:ring focus:ring-blue-300">
+                <option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Antigua and Barbuda">Antigua and Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option><option value="Botswana">Botswana</option><option value="Brazil">Brazil</option><option value="Brunei">Brunei</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cabo Verde">Cabo Verde</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo (Congo-Brazzaville)">Congo (Congo-Brazzaville)</option><option value="Costa Rica">Costa Rica</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czechia (Czech Republic)">Czechia (Czech Republic)</option><option value="Democratic Republic of the Congo">Democratic Republic of the Congo</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Eswatini">Eswatini</option><option value="Ethiopia">Ethiopia</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guinea">Guinea</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Honduras">Honduras</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Laos">Laos</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mexico">Mexico</option><option value="Micronesia">Micronesia</option><option value="Moldova">Moldova</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar (Burma)">Myanmar (Burma)</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="North Korea">North Korea</option><option value="North Macedonia">North Macedonia</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestine State">Palestine State</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russia">Russia</option><option value="Rwanda">Rwanda</option><option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome and Principe">Sao Tome and Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Korea">South Korea</option><option value="South Sudan">South Sudan</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria">Syria</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania">Tanzania</option><option value="Thailand">Thailand</option><option value="Timor-Leste">Timor-Leste</option><option value="Togo">Togo</option><option value="Tonga">Tonga</option><option value="Trinidad and Tobago">Trinidad and Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United Kingdom">United Kingdom</option><option value="United States">United States</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Vatican City">Vatican City</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-2 items-center">
+        <div class="text-xs flex flex-wrap gap-x-3 poppins-medium">
+            <a href="#">Contact us</a>
+            <a href="#">Press Resources</a>
+            <a href="#">Legal info</a>
+            <a href="#">Corporate information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Settings</a>
+            <a href="#">Imprint</a>
+        </div>
+    
+        <div class="flex items-center justify-end space-x-2">
+            <a href="https://github.com/Alexanderjms" class="text-xs poppins-medium">Made by Alexanderjms</a>
+            <a href="https://github.com/Alexanderjms">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="#000000" fill-rule="evenodd" d="M11.999 1C5.926 1 1 5.925 1 12c0 4.86 3.152 8.983 7.523 10.437c.55.102.75-.238.75-.53c0-.26-.009-.952-.014-1.87c-3.06.664-3.706-1.475-3.706-1.475c-.5-1.27-1.221-1.61-1.221-1.61c-.999-.681.075-.668.075-.668c1.105.078 1.685 1.134 1.685 1.134c.981 1.68 2.575 1.195 3.202.914c.1-.71.384-1.195.698-1.47c-2.442-.278-5.01-1.222-5.01-5.437c0-1.2.428-2.183 1.132-2.952c-.114-.278-.491-1.397.108-2.91c0 0 .923-.297 3.025 1.127A10.5 10.5 0 0 1 12 6.32a10.5 10.5 0 0 1 2.754.37c2.1-1.424 3.022-1.128 3.022-1.128c.6 1.514.223 2.633.11 2.911c.705.769 1.13 1.751 1.13 2.952c0 4.226-2.572 5.156-5.022 5.428c.395.34.747 1.01.747 2.037c0 1.47-.014 2.657-.014 3.017c0 .295.199.637.756.53C19.851 20.979 23 16.859 23 12c0-6.075-4.926-11-11.001-11"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    
+    
+
+</footer>
+
+    
+</body>
+</html>
